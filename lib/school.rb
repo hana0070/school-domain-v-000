@@ -16,7 +16,7 @@ class School
     #https://medium.com/@jaredrayjohnson1/ruby-operators-double-pipe-equals-bfcbe21a7177
   end
 
-  def grade(num)
+  def grade(student_grade)
 
 
   end
