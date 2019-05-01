@@ -1,6 +1,7 @@
 # code here!
 class School
 
+  attri_accessor :name, :grade
   def initialize(name)
     @name = name
     roster["new_key"] = []
