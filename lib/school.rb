@@ -12,7 +12,7 @@ class School
     roster[grade] ||= []
     roaster[grade] << student_name
     #It is an assignment operator which means: or assign this value to a variable.
-    #So if you did something like x ||= ythis meansx || x = y so if x is nil or false set x to be the value of y.
+    #So if you did something like x ||= y this means x || x = y so if x is nil or false set x to be the value of y.
   end
 
   def grade(num)
