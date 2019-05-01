@@ -10,14 +10,14 @@ class School
 
   def add_student(student_name, grade)
     roster[grade] ||= []
-    roaster[grade] << student_name
+    roster[grade] << student_name
     #It is an assignment operator which means: or assign this value to a variable.
     #So if you did something like x ||= y this means x || x = y so if x is nil or false set x to be the value of y.
     #https://medium.com/@jaredrayjohnson1/ruby-operators-double-pipe-equals-bfcbe21a7177
   end
 
   def grade(student_grade)
-
+    roaster[grade]
 
   end
 
