@@ -3,7 +3,7 @@ class School
 
   def initialize(name)
     @name = name
-    hash["new_key"] = []
+    roster["new_key"] = []
     roster = {}
   end
 
