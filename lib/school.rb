@@ -22,6 +22,7 @@ class School
 
   def sort
     sorted = {}
-    
+    roster eaco do |name|
+      
   end
 end
