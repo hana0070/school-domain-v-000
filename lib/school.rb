@@ -17,7 +17,7 @@ class School
   end
 
   def grade(student_grade)
-    roaster[grade]
+    roaster[student_grade]
 
   end
 
