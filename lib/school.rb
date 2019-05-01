@@ -18,7 +18,6 @@ class School
 
   def grade(student_grade)
     roaster[student_grade]
-
   end
 
   def sort
