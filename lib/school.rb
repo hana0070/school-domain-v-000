@@ -5,7 +5,7 @@ class School
 
   def initialize(name)
     @name = name
-    roster["new_key"] = []
+    @roster["new_key"] = []
 
   end
 
